@@ -1,4 +1,4 @@
-#Quiz
+# Quiz
 
 This excellent data driven quiz game is truly magnificent.
 
@@ -6,10 +6,13 @@ Build and run the main.go to expirience a large selection (4) of questions of ma
 
 `./main -src=filesource -timer=5 -totalTimer=30`
 
-##timer
+## src
+The source for the json file to get the questions from. Needs to be an array of objects with `Question` and `Answer` keys.
+
+## timer
 Determines how much time there is to answer a single question
 
-##totalTimer
+## totalTimer
 Determines how much time there is to answer all the questions
 
 Best of luck!
